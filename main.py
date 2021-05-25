@@ -1,11 +1,15 @@
 import requests
 from requests.auth import HTTPBasicAuth
-#
-# requests.get(
-#   'https://api.github.com/user',
-#   auth=HTTPBasicAuth('admin', 'admin')
-# )
 
-r = requests.get("http://127.0.0.1:8000/posts", auth=HTTPBasicAuth('demo2', 'demo2demo2'))
+# Naujo vartotojo registracija
 
-print(r.text)
+# data = {'username': 'demo3', 'password': 'demo3'}
+# r = requests.post('http://127.0.0.1:8000/signup', data=data)
+# print(r.text)
+
+# Įrašų atvaizdavimas su prisijungimu
+
+# r = requests.get("http://127.0.0.1:8000/posts", auth=HTTPBasicAuth('demo2', 'demo2demo2'))
+# print(r.text)
+
+
