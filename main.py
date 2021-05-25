@@ -20,3 +20,10 @@ from requests.auth import HTTPBasicAuth
 # print(r.text)
 
 
+# Gauname žetoną
+
+data = {'username': 'demo3', 'password': 'demo3'}
+
+r = requests.post("http://127.0.0.1:8000/api-token-auth/", data=data)
+print(r.text)
+
