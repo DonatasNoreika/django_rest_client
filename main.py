@@ -44,3 +44,8 @@ my_token = json.loads(r.text)['token']
 # r = requests.get("http://127.0.0.1:8000/posts", headers=headers)
 # print(r.text)
 
+# Userio ištrynimas su žetonu
+
+# headers = {'Authorization': f'Token {my_token}'}
+# r = requests.delete("http://127.0.0.1:8000/signup", headers=headers)
+# print(r.text)
