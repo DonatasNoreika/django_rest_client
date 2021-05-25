@@ -13,3 +13,10 @@ from requests.auth import HTTPBasicAuth
 # print(r.text)
 
 
+# Įrašų įrašymas su prisijungimu
+
+# data = {'title': 'Straipsnis iš kliento programos', 'body': 'O čia straipsnio tekstas'}
+# r = requests.post("http://127.0.0.1:8000/posts", auth=HTTPBasicAuth('demo2', 'demo2demo2'), data=data)
+# print(r.text)
+
+
